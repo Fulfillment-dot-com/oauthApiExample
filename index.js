@@ -38,7 +38,8 @@ app.get('/auth/fdc/callback', async function (req, res) {
     // Store the `access_token` and `refresh_token` token somewhere
     // and optionally store `expires` if you would like to optimistically
     // refresh the token before it expires
-    console.log('Authorization Response', user.data); //=> { access_token: '...', token_type: 'bearer', ... }
+    console.log('Successful Authorization Response');
+    console.log(user.data); //=> { access_token: '...', token_type: 'bearer', ... }
 
     // Example of refreshing a token
     // which should be used when an access token returns 401 because it has expired
