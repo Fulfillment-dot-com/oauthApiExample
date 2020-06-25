@@ -1,0 +1,17 @@
+{
+  "name": "oauthexample",
+  "version": "0.0.1",
+  "description": "an oauth example flow using auth code grant for fulfillment.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "env-cmd node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "client-oauth2": "^4.3.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1"
+  }
+}
